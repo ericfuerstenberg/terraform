@@ -1,4 +1,3 @@
-
 // Create a database server and get the private IP as output
 resource "aws_instance" "db-server" {
     ami = "${var.ami}"
